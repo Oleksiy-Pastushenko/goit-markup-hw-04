@@ -235,7 +235,7 @@ nav {
 }
 .comand-info {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 42px;
 }
 .comand-name {
     font-style: normal;
@@ -247,12 +247,27 @@ nav {
     margin-bottom: 10px;
 }
 .comand-text {
+    margin-bottom: 28px;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--maincolor);
     text-align: center;
-    
+}
+.social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials-link {
+    width: 44px;
+    height: 44px;
+}
+.social-item:not(:last-child) {
+    margin-right: 34px;
+}
+.social-icon {
+    fill: #AFB1B8;
 }
 .footer-section {
     background: #2F303A;
