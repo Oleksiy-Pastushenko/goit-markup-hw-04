@@ -172,9 +172,17 @@ nav {
 }
 .preference-item {
     width: 270px;
-}
+    }
 .preference-item:not(:last-child) {
     margin-right: 30px;
+}
+.preferense-icon {
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background: #F5F4FA;
 }
 .preference-title {
     margin-bottom: 10px;
@@ -256,18 +264,30 @@ nav {
 }
 .social-list {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 .socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 44px;
     height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+.socials-link:hover,
+.socials-link:focus {
+    background-color: #2196F3;
 }
 .social-item:not(:last-child) {
-    margin-right: 34px;
+    margin-right: 10px;
 }
 .social-icon {
     fill: #AFB1B8;
+}
+.social-icon:hover,
+.social-icon:focus {
+    fill: #FFFFFF;
 }
 .footer-section {
     background: #2F303A;
