@@ -96,6 +96,12 @@ nav {
     display: flex;
     margin-left: auto;
     }
+    
+.contacts-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+    
 .contacts-item:not(:last-child) {
     margin-right: 40px;
 }
