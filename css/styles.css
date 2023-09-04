@@ -99,6 +99,7 @@ nav {
     
 .contacts-icon {
     margin-right: 10px;
+    align-self: center;
     fill: currentColor;
 }
     
@@ -112,10 +113,11 @@ nav {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--maincolor);
-}
+    }
 .contacts-link{
     padding-top: 32px;
     padding-bottom: 32px;
+    display: flex;
 }
 .contacts-link:active,
 .contacts-link:hover,
@@ -252,7 +254,7 @@ nav {
 }
 .comand-info {
     padding-top: 30px;
-    padding-bottom: 42px;
+    padding-bottom: 30px;
 }
 .comand-name {
     font-style: normal;
@@ -264,7 +266,7 @@ nav {
     margin-bottom: 10px;
 }
 .comand-text {
-    margin-bottom: 28px;
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
