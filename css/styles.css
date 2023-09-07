@@ -16,6 +16,9 @@ li {
 img {
     display: block;
 }
+button {
+    border: none;
+}
 .container {
     width: 1200px;
     margin-left: auto;
@@ -326,7 +329,8 @@ nav {
 .clients-link:focus {
     border: 1px solid var(--secondarycolor);
 }
-.clients-link:hover .client-icon {
+.clients-link:hover .client-icon,
+.clients-link:focus .client-icon {
     fill: var(--secondarycolor);
 }
 .footer-section {
